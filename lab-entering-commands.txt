@@ -17,7 +17,14 @@ $ ls<ENTER>
 
 Copy and paste the output of ls below.
 ----------
-
+Ableton			Max 7			Temporary Work
+Adobe			MuseLog.txt		Unreal Projects
+Adobe Flash Builder 4.7	NewBlue			Untitled
+Arduino			Pd			eagle
+Avid Projects		Pro Tools		iChats
+Fritzing		Processing		maya
+MATLAB			REAPER Media
+MakeHuman		Smaart v8
 
 
 ==========
@@ -27,20 +34,20 @@ $ ls D<TAB>
 
 What happens?  Describe it below.
 ----------
-
+nothing
 
 
 ==========
 2b. Press <TAB> one more time.  Copy and paste the output below.
 ----------
 
-
+Desktop/   Documents/ Downloads/ 
 
 ==========
 2c. Now press <ENTER>. Copy and paste the output below.
 ----------
 
-
+ls: D: No such file or directory
 
 ==========
 3.  Type:
@@ -50,7 +57,26 @@ $ ls -l Documents<ENTER>
 Copy and paste the first *two lines* of output below.
 ----------
 
-
+total 8
+drwxr-x---   2 student  staff    68 Aug 22  2016 Adlm
+drwxr-xr-x   3 student  staff   102 Aug 22  2016 Adobe
+drwxr-xr-x   4 student  staff   136 Aug 22  2016 Applications
+drwx------   8 student  staff   272 Aug 15 12:48 Desktop
+drwx------+ 27 student  staff   918 Jan 26 14:34 Documents
+drwx------+  4 student  staff   136 Aug 22  2016 Downloads
+drwx------@ 61 student  staff  2074 Jan 17  2017 Library
+drwxr-xr-x   2 student  staff    68 Aug 22  2016 MPLABXProjects
+drwx------   8 student  staff   272 Jan 17  2017 Movies
+drwx------   8 student  staff   272 Aug 22  2016 Music
+drwxr-xr-x   5 student  staff   170 Dec  8 12:02 New Unity Project
+drwx------   6 student  staff   204 Aug  9 17:49 Pictures
+drwxr-xr-x   5 student  staff   170 Aug 22  2016 Public
+drwxr-xr-x@  3 student  staff   102 Aug  9 18:09 QLData
+drwxr-xr-x   5 student  staff   170 Aug 22  2016 Things
+-rw-r--r--   1 student  staff   824 Jan 17  2017 ipe.properties
+drwxr-xr-x   3 student  staff   102 Aug 22  2016 isus
+-rw-r--r--   1 student  staff     0 Jan 17 14:17 pymel.log
+drwxr-xr-x   2 student  staff    68 Aug 22  2016 xgen
 
 ==========
 4.  Type:
@@ -59,7 +85,22 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.			.eclipse		Desktop
+..			.flexlmrc		Documents
+.CFUserTextEncoding	.gitconfig		Downloads
+.DS_Store		.gnome2			Library
+.Trash			.local			MPLABXProjects
+.Xauthority		.macports		Movies
+.adobe			.matlab			Music
+.anaconda		.mplabcomm		New Unity Project
+.android		.mysql_history		Pictures
+.bash_history		.oracle_jre_usage	Public
+.bash_profile		.rnd			QLData
+.bash_sessions		.subversion		Things
+.cache			.thumbnails		ipe.properties
+.config			Adlm			isus
+.continuum		Adobe			pymel.log
+.eaglerc		Applications		xgen
 
 
 ==========
@@ -70,6 +111,7 @@ Copy and paste the first *two lines* of output below.
 What command was repeated?
 ----------
 
+ ls -a
 
 
 ==========
@@ -79,7 +121,7 @@ What command was repeated?
 
 What command was repeated?
 ----------
-
+ls -a
 
 
 ==========
@@ -90,7 +132,7 @@ $ ls /Vol<TAB><ENTER>
 What is the result of pressing tab?
 ----------
 
-
+automately enters the complete Vol to Volume
 
 ==========
 8.  Type:
@@ -99,38 +141,39 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
 
 
 ==========
 9.  What key do I press to go to the previous command?
 ----------
-
+You click the <UP> key
 
 
 ==========
 10.  Name two flags that we used in this exercise.
 ----------
 
-
+ls -a
+la -l
 
 ==========
 11.  What key do I use to attempt to autocomplete a command or a file name?
 ----------
 
-
+<TAB>
 
 ==========
 12.  What was the main command that we used throughout this exercise?
 ----------
 
-
+ls
 
 ==========
 13.  Name one argument that we passed to the command.
 ----------
 
-
+ls Vol
 
 ==========
 14.  Type:
@@ -140,7 +183,7 @@ $ foo<ENTER>
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 15.  Type:
@@ -150,7 +193,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
-
+-bash: foo: command not found
 
 ==========
 16.  In the following line....
@@ -159,3 +202,4 @@ $ ls -a Desktop
 
 What is the command, flag, argument, and prompt?
 ----------
+The command is ls. The flag is -a. The argument is Desktop. The prompt was is the $.
