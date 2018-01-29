@@ -32,7 +32,7 @@ If it doesn't start at #1 again, or ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 5. Type:
@@ -43,7 +43,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals
 
 ==========
 6. Type:
@@ -55,6 +55,7 @@ Copy and paste the output below.
 ----------
 
 
+animals	food
 
 ==========
 7. Type:
@@ -66,6 +67,7 @@ Copy and paste the output below.
 ----------
 
 
+animals	foo	food
 
 ==========
 8. Type:
@@ -76,7 +78,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002/foo/bar/baz/qux
 
 ==========
 9. Type:
@@ -98,7 +100,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/student/mtec1002
  
 ==========
 11. Type:
@@ -109,7 +111,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/
 
 ==========
 12. Type:
@@ -121,7 +123,31 @@ $ ls -l
 Copy and paste the first two lines from the output into the space below.
 ----------
 
-
+total 61
+drwxrwxr-x+ 123 root       admin  4182 Jan 25 20:05 Applications
+drwxr-xr-x+  71 root       wheel  2414 Jan 11 17:14 Library
+drwxr-xr-x@   2 root       wheel    68 Sep 15  2015 Network
+drwxrwx---    2 root       Virex    68 Aug 16  2016 Quarantine
+drwxr-xr-x    4 entadmin   wheel   136 Jan 12 18:02 SDKs
+drwxr-xr-x@   4 root       wheel   136 Jan  9 15:00 System
+drwxr-xr-x    7 root       admin   238 Oct  2 11:52 Users
+drwxrwxrwt@   3 root       admin   102 Jan 29 10:10 Volumes
+drwxr-xr-x@  39 root       wheel  1326 Jan  9 15:00 bin
+drwxr-xr-x    4 root       wheel   136 Apr 26  2017 cmake
+-rw-r--r--    1 student    wheel  1422 Jan 17 14:04 console.log
+dr-xr-xr-x    3 root       wheel  4180 Jan 29 10:06 dev
+lrwxr-xr-x@   1 root       wheel    11 Jan 17 16:32 etc -> private/etc
+dr-xr-xr-x    2 root       wheel     1 Jan 29 11:00 home
+-rw-r--r--@   1 root       wheel   313 Jul 31  2015 installer.failurerequests
+dr-xr-xr-x    2 root       wheel     1 Jan 29 11:00 net
+drwxr-xr-x@   5 root       wheel   170 Aug 19  2016 opt
+drwxr-xr-x@   6 root       wheel   204 Dec  3  2015 private
+drwxr-xr-x    3 professor  wheel   102 Aug  9 17:35 resources:Library
+-rw-r--r--    1 root       wheel   470 Apr 26  2017 revs.json
+drwxr-xr-x@  59 root       wheel  2006 Jan  9 15:00 sbin
+lrwxr-xr-x@   1 root       wheel    11 Jan 17 16:59 tmp -> private/tmp
+drwxr-xr-x@  13 root       wheel   442 Jan 13  2017 usr
+lrwxr-xr-x@   1 root       wheel    11 Jan 17 17:15 var -> private/var
 
 ==========
 13. Type:
@@ -131,7 +157,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/student
 
 
 ==========
@@ -143,7 +169,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Volumes
 
 ==========
 15. Type:
@@ -154,7 +180,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+-bash: cd: /unknown_folder: No such file or directory
 
 ==========
 15. Type:
@@ -165,7 +191,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/student/mtec1002
 
 ==========
 16. Type:
@@ -174,13 +200,13 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+ent-v314-012.local
 
 
 ==========
 17a. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+pwd
 
 
 ==========
